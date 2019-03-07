@@ -1,0 +1,93 @@
+<DOCTYPE html>
+<html>
+<head>
+<title> Controle Financeiro</title>
+<style type="text/css">
+*{
+    padding:0;
+    margin:0;
+    font: 13px arial, verdana, sans-serif black;
+}
+#main {
+
+    font: 20px arial, verdana, sans-serif blue;
+    padding: 100px;
+    margin: 100px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+        <header bgcolor= "#eee">
+            <center><h1>Controle Pessoal Financeiro</h1></center>
+        </header><!-- fim div banner-->
+    <main id="main">
+        <h1> Registros</h1>
+        <hr> </hr>
+        <table border="1">
+         <tr bgcolor="#eee">
+             <th>Descrição</th>
+             <th>Categoria</th>
+             <th>Data</th>
+             <th>Valor</th>
+             <th>Saldo</th>
+         </tr>
+         <tr>
+             <td>Crédito Salário</td>
+             <td>Crédito</td>
+             <td>05/10/2019</td>
+             <td>1500.00</td>
+             <td>1500.00</td>
+         </tr>
+         <tr>
+             <td>Pãozinho</td>
+             <td>Débito</td>
+             <td>06/10/2017</td>
+             <td>-7.50</td>
+             <td>1492.50</td>
+         </tr>
+         <tr>
+             <td>Conta de Luz</td>
+             <td>Débito</td>
+             <td>08/10/2017</td>
+             <td>-102.90</td>
+             <td>1389.60</td>
+         </tr>
+         <tr>
+             <td>Freela</td>
+             <td>Crédito</td>
+             <td>08/10/2017</td>
+             <td>750.00</td>
+             <td>2139.60</td>
+         </tr>
+         <tr>
+             <td>Cartão Crédito</td>
+             <td>Débito</td>
+             <td>10/10/2017</td>
+             <td>-2900.00</td>
+             <td bgcolor="#FE2E64">-760.40 </td>
+         </tr>
+            </table>
+                <h2>Adicionar Nova Receita</h2>
+                <hr> </hr>
+                <p>Descrição</p>
+                <p><label for="Nome">
+                    <input type="text" name="Nome" id="Nome" placeholder="Digite a descrição da sua receita" size="100"/>
+                        </label></p>
+                        <p>
+                            <label for="Categoria">Categoria:
+                                <input type="text" name="Categoria" id="Categoria" placeholder="Digite a Categoria da sua receita" 
+                                size="30" />
+                            </label>
+                        </p>
+                        <button id="btnAdicionar" bgcolor="#0000FF">Adicionar</button>
+            </main> <!-- fim div corpo-->
+            <aside>
+                    
+            </aside>  
+                  
+    <footer>     
+        <center><p>&copy; 2019 Carlos César Jr.</p></center>
+    </footer><!-- fim div rodape-->
+</body>
+</html>
